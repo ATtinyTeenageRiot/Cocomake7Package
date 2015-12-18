@@ -1,0 +1,46 @@
+{
+	"packages" : [
+		{
+			"name" : "Cocomake7",
+			"maintainer" : "Cocomake7",
+			"websiteURL" : "https://github.com/CocoMake7",
+			"email" : "iyok@deadmediafm.org",
+			"help" : {
+				"online" : "https://github.com/CocoMake7"
+			},
+			"platforms" : [
+							{
+				"name" : "Cocomake7",
+				"architecture" : "avr",
+				"version" : "0.0.1",
+				"category" : "contributed",
+				"url" : "http://attinyteenageriot.github.io/Cocomake7Package/boards/cocomake-0.0.1.tar.gz",
+				"archiveFileName" : "cocomake-0.0.1.tar.gz",
+				"checksum" : "SHA-256:e3089fdde962eba16718024799c00943d105e21bbe0f5d41f096e68b792f60d0",
+				"size" : "",
+				"help" : {
+					"online" : "https://github.com/CocoMake7"
+				},
+				"boards" : [
+					{
+						"name" : "Cocomake7"
+					}
+				],
+				"toolsDependencies" : [
+					{
+						"packager" : "arduino",
+						"name" : "avr-gcc",
+						"version" : "4.8.1-arduino5"
+					},
+					{
+						"packager" : "arduino",
+						"name" : "avrdude",
+						"version" : "6.0.1-arduino5"
+					}
+				]
+			}
+			],
+			"tools" : []
+		}
+	]
+}
